@@ -1,11 +1,12 @@
 # `stylelint-config-ez`
 
-> TODO: description
 
-## Usage
-
+## Install Package
 ```
-const stylelintConfigEz = require('stylelint-config-ez');
+npm i -D @ez-linting/stylelint-config-ez
+```
 
-// TODO: DEMONSTRATE API
+### Stylelint Usage
+```
+extends: ["@ez-linting/stylelint-config-ez"]
 ```
