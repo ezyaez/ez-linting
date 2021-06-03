@@ -3,5 +3,5 @@
 const stylelintConfigEz = require('..');
 
 describe('stylelint-config-ez', () => {
-    it('needs tests');
+    it('needs tests.');
 });
