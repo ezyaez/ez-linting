@@ -1,12 +1,12 @@
 # ez-linting
 
 ### Check Package Specific Doc
-- [ESLint](
-https://github.com/ezyaez/ez-linting/tree/piyush/eslint-core/packages/eslint-config-ez#readme)
-- [StyleLint](https://github.com/ezyaez/ez-linting/tree/piyush/eslint-core/packages/stylelint-config-ez#readme)
+- [ESLint](https://github.com/ezyaez/ez-linting/tree/master/packages/eslint-config-ez#readme)
+- [StyleLint](https://github.com/ezyaez/ez-linting/tree/master/packages/stylelint-config-ez#readme)
 
 
-### Lerna Usage/Development
+
+## Lerna Usage/Development
 
 ### Create New Package(if required)
 ```
