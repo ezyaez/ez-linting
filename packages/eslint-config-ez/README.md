@@ -3,10 +3,10 @@
 
 ## Install Package
 ```
-npm i -D @ez-linting/eslint-config-ez
+npm i -D @ezyaez/eslint-config-ez
 ```
 
 ### Eslint Usage
 ```
-extends: ['@ez-linting/eslint-config-ez']
+extends: ['@ezyaez/eslint-config-ez']
 ```

@@ -3,10 +3,10 @@
 
 ## Install Package
 ```
-npm i -D @ez-linting/stylelint-config-ez
+npm i -D @ezyaez/stylelint-config-ez
 ```
 
 ### Stylelint Usage
 ```
-extends: ["@ez-linting/stylelint-config-ez"]
+extends: ["@ezyaez/stylelint-config-ez"]
 ```
