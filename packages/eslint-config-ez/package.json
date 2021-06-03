@@ -11,7 +11,7 @@
   ],
   "author": "Piyush Goyani <piyush.goyani@ezeetechnosys.com>",
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/eslint-config-ez.js",
   "directories": {
     "lib": "lib",
@@ -31,6 +31,7 @@
     "url": "https://github.com/ezyaez/ez-linting/issues"
   },
   "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
     "eslint": "^7.27.0",
     "eslint-plugin-import": "^2.23.4"
   },

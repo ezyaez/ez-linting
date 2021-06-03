@@ -12,7 +12,7 @@
   ],
   "author": "Piyush Goyani <piyush.goyani@ezeetechnosys.com>",
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/stylelint-config-ez.js",
   "directories": {
     "lib": "lib",
