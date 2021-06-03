@@ -1,7 +1,10 @@
 # ez-linting
 
 ## Install Package
-
+```
+npm i -D @ez-linting/eslint-config-ez
+npm i -D @ez-linting/stylelint-config-ez
+```
 
 ### Eslint Usage
 ```
