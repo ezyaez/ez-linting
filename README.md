@@ -3,7 +3,7 @@
 ### Check Package Specific Doc
 - [ESLint](https://github.com/ezyaez/ez-linting/tree/master/packages/eslint-config-ez#readme)
 - [StyleLint](https://github.com/ezyaez/ez-linting/tree/master/packages/stylelint-config-ez#readme)
-
+- [Eslint-typescript](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-yc/README.md)
 
 
 ## Lerna Usage/Development
