@@ -105,4 +105,3 @@ dist
 
 # npm package
 .npmrc
-package-lock.json
