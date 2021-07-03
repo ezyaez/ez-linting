@@ -1,6 +1,6 @@
 {
   "name": "@ezyaez/stylelint-config-ez",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Global Stylelint Config for EZ",
   "keywords": [
     "stylelint",

@@ -1,11 +1,12 @@
 # `eslint-config-yc`
 
-> TODO: description
 
-## Usage
-
+## Install Package
 ```
-const eslintConfigYc = require('eslint-config-yc');
+npm i -D @ezyaez/eslint-config-yc
+```
 
-// TODO: DEMONSTRATE API
+### Eslint Usage
+```
+extends: ['@ezyaez/eslint-config-yc']
 ```
