@@ -1,6 +1,6 @@
 {
   "name": "@ezyaez/eslint-config-yc",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "typescript-eslint configuration for yanolja cloud ",
   "author": "vijay-ezee <vijay.reshamwala@ezeetechnosys.com>",
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
