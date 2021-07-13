@@ -2,5 +2,8 @@
 
 module.exports = {
   root: true,
-  extends: ['@nuxtjs/eslint-config-typescript', 'plugin:@typescript-eslint/recommended',],
+  extends: ['plugin:@typescript-eslint/recommended', '@nuxtjs/eslint-config-typescript'],
+  rules: {
+    '@typescript-eslint/no-explicit-any': 'warn',
+  },
 }
