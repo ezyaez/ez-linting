@@ -12,7 +12,7 @@ extends: ['@ezyaez/eslint-config-yc']
 ```
 
 ### Description
-  **"extends": ['@ezyaez/eslint-config-yc']** tells ESLint that your config extends the given configurations. ESLint extends configurations recursively, so a shared **@ezyaez/eslint-config-yc** configuration can also have its own extends, plugins, parser properties which will apply to the .eslintrc configuration.
+  **"extends": ['@ezyaez/eslint-config-yc']** tells ESLint that your config extends shared **@ezyaez/eslint-config-yc** configuration.This shared configuration may also have its own extends, plugins, parser properties which will also apply into the .eslintrc configuration. So there is no need to re-declare these properties in your own .eslintrc.
 
 This library provides lint rules for TypeScript codebases.
 
