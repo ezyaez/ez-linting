@@ -12,8 +12,8 @@ extends: ['@ezyaez/eslint-config-yc']
 ```
 
 ### Description
-  **"extends": ['@ezyaez/eslint-config-yc']** tells ESLint that your config extends shared **@ezyaez/eslint-config-yc** configuration.This shared configuration may also have its own extends, plugins, parser properties which will also apply into the .eslintrc configuration. So there is no need to re-declare these properties in your own .eslintrc.
-
+  **"extends": ['@ezyaez/eslint-config-yc']** tells ESLint that your config extends shared **@ezyaez/eslint-config-yc** configuration. This shared configuration also have its own extends packages **@nuxtjs/eslint-config-typescript** and **plugin:@typescript-eslint/recommended**, which will also apply into the .eslintrc configuration. So there is no need to extends again these packages in your own .eslintrc.
+  
 This library provides lint rules for TypeScript codebases.
 
 You can override same rules as you could with @nuxtjs/eslint-config but also TypeScript rules under the rules section of .eslintrc configuration file. You can find the list of supported TypeScript rules [here](https://github.com/typescript-eslint/typescript-eslint/tree/master/packages/eslint-plugin#supported-rules).
@@ -30,3 +30,5 @@ rules: {
 ```
 This rule doesn't allow any types to be defined default, You can override rule on project level by error/off values as required.
 [More Info](https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/no-explicit-any.md)
+
+**Note**: Monthly update and audit check of this package required. Make entry into Change.md file, if any update or changes.
