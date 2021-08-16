@@ -27,5 +27,4 @@ lerna add eslint-plugin-import --scope=@ezyaez/eslint-config-ez
 - npm i -D @nuxtjs/eslint-config-typescript
 ```
 
-#### Misc(Nuxt - non-dep)
-- @nuxtjs/eslint-module
+#### [View ChangeLog](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)
