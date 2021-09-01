@@ -1,6 +1,19 @@
 # Changelog
 
 
+## 2021-09-01
+
+### eslint-config-ez
+- Publish v1.0.3
+- [`7012efd`](https://github.com/ezyaez/ez-linting/commit/7012efdfac8ec3dbdca061d71060c276112bb3ed)
+  - Update `eslint-plugin-import` from `^2.24.0` to `^2.24.2` [(Review)](https://github.com/import-js/eslint-plugin-import/blob/master/CHANGELOG.md) 
+
+### eslint-config-yc
+- Publish v1.0.7
+- [`3271ee0`](https://github.com/ezyaez/ez-linting/commit/3271ee020546b8becea387ce7b4ccb81ad798310)
+  - Update `@typescript-eslint/eslint-plugin` from `^4.29.1` to `^4.30.0` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/master/CHANGELOG.md)
+
+
 ## 2021-08-16
 
 ### eslint-config-ez
