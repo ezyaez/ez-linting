@@ -4,6 +4,10 @@
 
 ### stylelint-config-ez
 
+- #### Publish [v2.0.1](https://github.com/ezyaez/ez-linting/commit/2ec1ccbcc08b5e8ef52c6b8442f4d8c7f428a6a0)
+
+  - Update style rules to fix scss import and function issues.
+
 - #### Publish [v2.0.0](https://github.com/ezyaez/ez-linting/commit/d0e0f325d671c22be9ff6e3ddc3e4b5ad09015d7)
 
   - Remove `stylelint-config-standard`
