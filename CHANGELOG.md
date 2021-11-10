@@ -1,5 +1,20 @@
 # Change Log
 
+## 2021-11-10
+
+### stylelint-config-ez
+
+- Publish v2.0.0
+- [`d0e0f32`](https://github.com/ezyaez/ez-linting/commit/d0e0f325d671c22be9ff6e3ddc3e4b5ad09015d7)
+
+  - Remove `stylelint-config-standard`
+  - Add `stylelint-config-standard-scss` for SCSS linting
+  - Migration for `--syntax` in [stylelint v14.0.0](https://github.com/stylelint/stylelint/blob/main/docs/migration-guide/to-14.md)
+
+- Publish v1.0.3
+- [`7b75cf9`](https://github.com/ezyaez/ez-linting/commit/7b75cf9d16bea8b98e4669f1d44f4cc5b9c984b8)
+  - Test Version for breaking changes in stylelint `14.0.0`
+
 ## 2021-11-09
 
 ### eslint-config-yc
