@@ -9,5 +9,7 @@ module.exports = {
     "property-no-vendor-prefix": null,
     "selector-class-pattern": null,
     "max-line-length": null,
+    "scss/at-import-no-partial-leading-underscore": null,
+    "scss/no-global-function-names": null,
   },
 };
