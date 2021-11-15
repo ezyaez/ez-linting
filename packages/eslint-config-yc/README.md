@@ -48,4 +48,4 @@ This rule doesn't allow any types to be defined default, You can override rule o
 
 **Note**: Monthly update and audit check of this package required. Make entry into Change.md file, if any update or changes.
 
-#### [View ChangeLog](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)```
+### [View Change Log](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)

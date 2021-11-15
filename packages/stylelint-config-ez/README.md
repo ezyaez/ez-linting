@@ -25,4 +25,4 @@ extends: ["@ezyaez/stylelint-config-ez"]
 
 ### [Library Rules](https://github.com/ezyaez/ez-linting/blob/master/packages/stylelint-config-ez/lib/stylelint-config-ez.js)
 
-#### [View ChangeLog](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)
+### [View Change Log](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)
