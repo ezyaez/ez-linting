@@ -24,4 +24,4 @@ extends: ['@ezyaez/eslint-config-ez']
 
 ### [Library Rules](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-ez/lib/eslint-config-ez.js)
 
-### [View Change Log](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)```
+### [View Change Log](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)
