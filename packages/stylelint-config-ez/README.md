@@ -1,6 +1,6 @@
 # `stylelint-config-ez`
 
-Global Styleint Configuration
+Global Stylelint configuration for SCSS projects.
 
 ## Getting Started
 
@@ -23,19 +23,6 @@ Stylelint can be configured in many ways e.g (package.json, .stylelintyc, stylel
 extends: ["@ezyaez/stylelint-config-ez"]
 ```
 
-### Library Rules
-
-This library contains following stylelint rules:
-
-```
- "no-empty-source": null,
- "rule-empty-line-before": null,
- "selector-list-comma-newline-after": null,
- "property-no-vendor-prefix": null,
- "selector-class-pattern": null,
- "max-line-length": null,
- "scss/at-import-no-partial-leading-underscore": null,
- "scss/no-global-function-names": null,
-```
+### [Library Rules](https://github.com/ezyaez/ez-linting/blob/master/packages/stylelint-config-ez/lib/stylelint-config-ez.js)
 
 #### [View ChangeLog](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)
