@@ -1,5 +1,13 @@
 # Change Log
 
+
+## 2022-02-02
+### stylelint-config-ez
+
+- #### Publish [v2.0.2](https://github.com/ezyaez/ez-linting/commit/de87c38891c60bb8a95948769c8ffef4d1857c8e)
+  - Update `stylelint` from `^14.0.1` to `14.3.0` [(Review)](https://github.com/stylelint/stylelint/blob/main/CHANGELOG.md)
+  - Update `stylelint-config-standard-scss` from `^2.0.1` to `3.0.0` [(Review)](https://github.com/stylelint-scss/stylelint-config-standard-scss/blob/main/CHANGELOG.md)
+
 ## 2021-11-10
 
 ### stylelint-config-ez
