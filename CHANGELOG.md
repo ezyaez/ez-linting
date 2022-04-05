@@ -2,6 +2,12 @@
 
 ## 2022-04-05
 
+### eslint-config-yc
+
+- #### Publish [v1.0.11](https://github.com/ezyaez/ez-linting/commit/55403d1ac104f1b52d1d4876bd457f61bc83e8f6)
+  - Update `@nuxtjs/eslint-config-typescript` from `8.0.0` to `9.0.0` [(Review)](https://github.com/nuxt/eslint-config/blob/master/packages/eslint-config-typescript/CHANGELOG.md#900-2022-03-13)
+  - Update `@typescript-eslint/eslint-plugin` from `5.10.2` to `5.18.0` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md#5180-2022-04-04)
+
 ### stylelint-config-ez
 
 - #### Publish [v2.0.3](https://github.com/ezyaez/ez-linting/commit/2ac5b44d0003b0d1c8a57ae097a20c85a99da284)
