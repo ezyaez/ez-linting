@@ -1,0 +1,43 @@
+{
+  "sourceRoot": "packages/stylelint-config-ez/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/packages/stylelint-config-ez",
+        "main": "packages/stylelint-config-ez/src/index.ts",
+        "tsConfig": "packages/stylelint-config-ez/tsconfig.lib.json",
+        "assets": ["packages/stylelint-config-ez/*.md"]
+      }
+    },
+    "publish": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "node tools/scripts/publish.mjs stylelint-config-ez {args.ver} {args.tag}"
+      },
+      "dependsOn": [
+        {
+          "projects": "self",
+          "target": "build"
+        }
+      ]
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/stylelint-config-ez/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/stylelint-config-ez"],
+      "options": {
+        "jestConfig": "packages/stylelint-config-ez/jest.config.ts",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

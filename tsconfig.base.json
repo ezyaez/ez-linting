@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ezyaez/eslint-config-ez": ["packages/eslint-config-ez/src/index.ts"],
+      "@ezyaez/eslint-config-yc": ["packages/eslint-config-yc/src/index.ts"],
+      "@ezyaez/stylelint-config-ez": [
+        "packages/stylelint-config-ez/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
