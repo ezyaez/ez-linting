@@ -6,7 +6,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/stylelint-config-ez",
-        "main": "packages/stylelint-config-ez/src/index.ts",
+        "main": "packages/stylelint-config-ez/lib/stylelint-config-ez.ts",
         "tsConfig": "packages/stylelint-config-ez/tsconfig.lib.json",
         "assets": ["packages/stylelint-config-ez/*.md"]
       }
