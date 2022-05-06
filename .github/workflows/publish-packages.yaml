@@ -1,0 +1,23 @@
+name: Publish Package to NPM
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14.x'
+          registry-url: 'https://registry.npmjs.org'
+      - name: Install dependencies
+        run: npm install
+      - name: Publish package
+        run: npm run publish-eslint-ez
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
