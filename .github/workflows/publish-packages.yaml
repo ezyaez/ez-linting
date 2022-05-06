@@ -4,20 +4,46 @@ on:
   push:
     branches:
       - master
+    paths:
+      - packages/**
 
 jobs:
-  build:
+  publish_package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Install dependencies
-        uses: actions/setup-node@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
         run: npm install
-      - name: Publish package
+
+      - uses: dorny/paths-filter@v2
+        id: changes
+        with:
+          filters: |
+            eslint-config-ez:
+              - packages/eslint-config-ez/**
+            eslint-config-yc:
+              - packages/eslint-config-yc/**
+            stylelint-config-ez:
+              - packages/stylelint-config-ez/**
+
+      - name: Publish Package eslint-config-ez
+        if: steps.changes.outputs.eslint-config-ez == 'true'
         run: npm run publish-eslint-ez
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish Package eslint-config-yc
+        if: steps.changes.outputs.eslint-config-yc == 'true'
+        run: npm run publish-eslint-yc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Publish Package stylelint-config-ez
+        if: steps.changes.outputs.stylelint-config-ez == 'true'
+        run: npm run publish-stylelint-ez
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
