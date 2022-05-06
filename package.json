@@ -2,7 +2,11 @@
   "name": "ez-linting",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "publish-eslint-ez": "nx publish eslint-config-ez --ver=0.0.0-test.0",
+    "publish-eslint-yc": "nx publish eslint-config-yc --ver=0.0.0-test.0",
+    "publish-stylelint-ez": "nx publish stylelint-config-ez --ver=0.0.0-test.0"
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/cli": "14.1.1",
