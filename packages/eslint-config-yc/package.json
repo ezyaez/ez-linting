@@ -1,5 +1,26 @@
 {
   "name": "@ezyaez/eslint-config-yc",
-  "version": "0.0.1",
-  "type": "commonjs"
+  "version": "1.0.11",
+  "description": "typescript-eslint configuration for yanolja cloud ",
+  "author": "vijay-ezee <vijay.reshamwala@ezeetechnosys.com>",
+  "homepage": "https://github.com/ezyaez/ez-linting#readme",
+  "type": "commonjs",
+  "license": "MIT",
+  "main": "lib/eslint-config-ez.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezyaez/ez-linting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ezyaez/ez-linting/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

@@ -1,5 +1,37 @@
 {
   "name": "@ezyaez/eslint-config-ez",
-  "version": "0.0.1",
-  "type": "commonjs"
+  "version": "1.0.4",
+  "type": "commonjs",
+  "description": "Global Eslint Config for EZ",
+  "keywords": [
+    "eslint",
+    "javascript",
+    "typescript",
+    "nuxtjs",
+    "vuejs"
+  ],
+  "author": "Piyush Goyani <piyush.goyani@ezeetechnosys.com>",
+  "homepage": "https://github.com/ezyaez/ez-linting#readme",
+  "license": "MIT",
+  "main": "lib/eslint-config-ez.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezyaez/ez-linting.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ezyaez/ez-linting/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }

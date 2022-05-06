@@ -1,5 +1,37 @@
 {
   "name": "@ezyaez/stylelint-config-ez",
-  "version": "0.0.1",
-  "type": "commonjs"
+  "version": "2.0.3",
+  "description": "Global Stylelint Config for EZ",
+  "keywords": [
+    "stylelint",
+    "nuxtjs",
+    "vuejs",
+    "scss",
+    "css",
+    "sass"
+  ],
+  "author": "Piyush Goyani <piyush.goyani@ezeetechnosys.com>",
+  "homepage": "https://github.com/ezyaez/ez-linting#readme",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "lib/stylelint-config-ez.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezyaez/ez-linting.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ezyaez/ez-linting/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
