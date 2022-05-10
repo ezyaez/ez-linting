@@ -24,4 +24,16 @@ extends: ['@ezyaez/eslint-config-ez']
 
 ### [Library Rules](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-ez/lib/eslint-config-ez.js)
 
+### Building
+
+Run `nx build eslint-config-ez` to build the library.
+
+### Linting
+
+Run `nx lint eslint-config-ez` to lint the library.
+
+## Running unit tests
+
+Run `nx test eslint-config-ez` to execute the unit tests via [Jest](https://jestjs.io).
+
 ### [View Change Log](https://github.com/ezyaez/ez-linting/blob/master/CHANGELOG.md)

@@ -4,11 +4,11 @@
   "description": "typescript-eslint configuration for yanolja cloud ",
   "author": "vijay-ezee <vijay.reshamwala@ezeetechnosys.com>",
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
+  "type": "commonjs",
   "license": "MIT",
-  "main": "lib/eslint-config-yc.js",
+  "main": "lib/eslint-config-ez.ts",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
@@ -17,17 +17,10 @@
     "type": "git",
     "url": "git+https://github.com/ezyaez/ez-linting.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/ezyaez/ez-linting/issues"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "9.0.0",
-    "@typescript-eslint/eslint-plugin": "5.18.0"
   }
 }

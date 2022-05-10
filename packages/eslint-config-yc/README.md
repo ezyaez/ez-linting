@@ -22,6 +22,18 @@ ESLint can be configured in many ways e.g (.eslintrc.{js,yml,json} files.)
 extends: ['@ezyaez/eslint-config-yc']
 ```
 
+### Building
+
+Run `nx build eslint-config-yc` to build the library.
+
+### Linting
+
+Run `nx lint eslint-config-yc` to lint the library.
+
+### Running unit tests
+
+Run `nx test eslint-config-yc` to execute the unit tests via [Jest](https://jestjs.io).
+
 ### Description
 
 **"extends": ['@ezyaez/eslint-config-yc']** tells ESLint that your config extends shared **@ezyaez/eslint-config-yc** configuration. This shared configuration also have its own extends packages **@nuxtjs/eslint-config-typescript** and **plugin:@typescript-eslint/recommended**, which will also apply into the .eslintrc configuration. So there is no need to extends again these packages in your own .eslintrc.
