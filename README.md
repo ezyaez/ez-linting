@@ -1,4 +1,4 @@
-# ez-linting
+# ez-linting  [![Publish Package to NPM](https://github.com/ezyaez/ez-linting/actions/workflows/publish-packages.yaml/badge.svg)](https://github.com/ezyaez/ez-linting/actions/workflows/publish-packages.yaml)
 
 ### Check Package Specific Doc
 
