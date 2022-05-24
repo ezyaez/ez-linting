@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "publish-eslint-ez": "nx publish eslint-config-ez --ver=0.0.0-test.0",
+    "publish-eslint-ez": "nx publish eslint-config-ez --ver=1.0.5",
     "publish-eslint-yc": "nx publish eslint-config-yc --ver=1.0.12",
     "publish-stylelint-ez": "nx publish stylelint-config-ez --ver=2.0.4"
   },
