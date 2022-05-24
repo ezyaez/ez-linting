@@ -1,6 +1,6 @@
 {
   "name": "@ezyaez/eslint-config-ez",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "commonjs",
   "description": "Global Eslint Config for EZ",
   "keywords": [
@@ -35,12 +35,12 @@
     "access": "public"
   },
   "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "7.0.2",
-    "eslint": "8.2.0",
-    "eslint-plugin-import": "2.25.2"
+    "@nuxtjs/eslint-config-typescript": "10.0.0",
+    "eslint": "8.16.0",
+    "eslint-plugin-import": "2.26.0"
   },
   "peerDependencies": {
-    "eslint": "^8.2.0",
-    "eslint-plugin-import": "^2.25.2"
+    "eslint": "^8.16.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
