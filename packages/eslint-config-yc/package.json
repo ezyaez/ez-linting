@@ -6,7 +6,7 @@
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
   "type": "commonjs",
   "license": "MIT",
-  "main": "lib/eslint-config-ez.ts",
+  "main": "lib/eslint-config-yc.js",
   "directories": {
     "lib": "lib"
   },
