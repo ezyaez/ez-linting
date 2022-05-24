@@ -22,5 +22,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "9.0.0",
+    "@typescript-eslint/eslint-plugin": "5.18.0"
   }
 }
