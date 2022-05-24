@@ -1,12 +1,12 @@
 {
   "name": "@ezyaez/eslint-config-yc",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "typescript-eslint configuration for yanolja cloud ",
   "author": "vijay-ezee <vijay.reshamwala@ezeetechnosys.com>",
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
   "type": "commonjs",
   "license": "MIT",
-  "main": "lib/eslint-config-ez.ts",
+  "main": "lib/eslint-config-yc.js",
   "directories": {
     "lib": "lib"
   },
@@ -22,5 +22,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "10.0.0",
+    "@typescript-eslint/eslint-plugin": "5.26.0"
   }
 }

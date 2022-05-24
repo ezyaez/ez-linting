@@ -1,5 +1,25 @@
 # Change Log
 
+## 2022-05-24
+
+### eslint-config-ez
+
+- #### Publish [v1.0.5](https://github.com/ezyaez/ez-linting/commit/34a12ab6190a1e0bd4031ae09ec0c07216238568)
+  - Update `eslint` from `8.2.0` to `8.16.0` [(Review)](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+  - Update `eslint-plugin-import` from `2.25.2` to `2.26.0` [(Review)](https://github.com/import-js/eslint-plugin-import/blob/main/CHANGELOG.md#2260---2022-04-05)
+  - Update `@nuxtjs/eslint-config-typescript` from `7.0.2` to `10.0.0` [(Review)](https://github.com/nuxt/eslint-config/blob/main/packages/eslint-config-typescript/CHANGELOG.md#1000-2022-05-02)
+
+### eslint-config-yc
+
+- #### Publish [v1.0.12](https://github.com/ezyaez/ez-linting/commit/5bf656d5052f999dc45aa3f6c111b6bf1be26d81)
+  - Update `@nuxtjs/eslint-config-typescript` from `9.0.0` to `10.0.0` [(Review)](https://github.com/nuxt/eslint-config/blob/main/CHANGELOG.md#1000-2022-05-02)
+  - Update `@typescript-eslint/eslint-plugin` from `5.18.0` to `5.26.0` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md#5260-2022-05-23)
+
+### stylelint-config-ez
+
+- #### Publish [v2.0.4](https://github.com/ezyaez/ez-linting/commit/838312cf94b613a4e03315595edee5e9b0bbb596)
+  - Update `stylelint` from `14.6.1` to `14.8.3` [(Review)](https://github.com/stylelint/stylelint/blob/main/CHANGELOG.md#1483)
+
 ## 2022-04-05
 
 ### eslint-config-yc
@@ -27,7 +47,7 @@
   - Update `@nuxtjs/eslint-config-typescript` from `^7.0.2` to `8.0.0` [(Review)](https://github.com/nuxt/eslint-config/blob/master/packages/eslint-config-typescript/CHANGELOG.md)
   - Update `@typescript-eslint/eslint-plugin` from `^5.3.1` to `5.10.2` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/master/CHANGELOG.md)
 
-## 2021-11-10
+## 2021-11-10$ npm install @ezyaez/eslint-config-yc@1.0.12-test.2
 
 ### stylelint-config-ez
 
