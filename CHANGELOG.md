@@ -1,5 +1,22 @@
 # Change Log
 
+## 2022-05-26
+
+### eslint-config-ez
+
+- #### Publish [v1.0.6]
+  - Dump version with `latest` tag
+
+### eslint-config-yc
+
+- #### Publish [v1.0.13]
+  - Dump version with `latest` tag
+
+### stylelint-config-ez
+
+- #### Publish [v2.0.5]
+  - Dump version with `latest` tag
+
 ## 2022-05-24
 
 ### eslint-config-ez
