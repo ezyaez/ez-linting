@@ -25,6 +25,6 @@
   },
   "dependencies": {
     "@nuxtjs/eslint-config-typescript": "10.0.0",
-    "@typescript-eslint/eslint-plugin": "5.30.0"
+    "@typescript-eslint/eslint-plugin": "5.30.6"
   }
 }
