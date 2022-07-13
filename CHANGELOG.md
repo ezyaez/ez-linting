@@ -1,5 +1,25 @@
 # Change Log
 
+## 2022-07-13
+
+// update package.json versions
+
+### eslint-config-ez
+
+- #### Publish [v1.0.7](https://github.com/ezyaez/ez-linting/commit/a87b564a24db77830ecbd9e584e2c6f1edfbc13c)
+  - Update `eslint` from `8.16.0` to `8.19.0` [(Review)](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+
+### eslint-config-yc
+
+- #### Publish [v1.0.14](https://github.com/ezyaez/ez-linting/commit/b3cbd4b435294127027d880bb50f09ec80d922cd)
+  - Update `@typescript-eslint/eslint-plugin` from `5.26.0` to `5.30.6` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md#5306-2022-07-11)
+
+### stylelint-config-ez
+
+- #### Publish [v2.0.6](https://github.com/ezyaez/ez-linting/commit/0dea984efa44609c4130b8c161f0d83fa2434f78)
+  - Update `stylelint` from `14.8.3` to `14.9.1` [(Review)](https://github.com/stylelint/stylelint/blob/main/CHANGELOG.md#1491)
+  - Update `stylelint-config-standard-scss` from `3.0.0` to `4.0.0` [(Review)](https://github.com/stylelint-scss/stylelint-config-standard-scss/blob/main/CHANGELOG.md#400)
+
 ## 2022-05-26
 
 ### eslint-config-ez
