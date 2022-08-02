@@ -2,8 +2,6 @@
 
 ## 2022-08-02
 
-// update package.json versions
-
 ### eslint-config-ez
 
 - #### Publish [v1.0.8](https://github.com/ezyaez/ez-linting/commit/7359306427541ce0769a12ae0446a65a397e015b#diff-73e436a93c98e05818365bb95d0c23bd73f9004082cb627f3a52e27417ba5fc3)
@@ -20,8 +18,6 @@
   - Update `stylelint-config-standard-scss` from `4.0.0` to `5.0.0` [(Review)](https://github.com/stylelint-scss/stylelint-config-standard-scss/blob/main/CHANGELOG.md#500)
 
 ## 2022-07-13
-
-// update package.json versions
 
 ### eslint-config-ez
 
