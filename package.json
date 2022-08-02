@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "publish-eslint-ez": "nx publish eslint-config-ez --tag=latest --ver=1.0.7",
-    "publish-eslint-yc": "nx publish eslint-config-yc --tag=latest --ver=1.0.14",
-    "publish-stylelint-ez": "nx publish stylelint-config-ez --tag=latest --ver=2.0.6"
+    "publish-eslint-ez": "nx publish eslint-config-ez --tag=latest --ver=1.0.8",
+    "publish-eslint-yc": "nx publish eslint-config-yc --tag=latest --ver=1.0.15",
+    "publish-stylelint-ez": "nx publish stylelint-config-ez --tag=latest --ver=2.0.7"
   },
   "private": true,
   "devDependencies": {
