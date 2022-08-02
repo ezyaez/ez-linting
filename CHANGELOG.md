@@ -10,7 +10,7 @@
 ### eslint-config-yc
 
 - #### Publish [v1.0.15](https://github.com/ezyaez/ez-linting/commit/7359306427541ce0769a12ae0446a65a397e015b#diff-5053aed3db0d308a5c63133277c41a8d4832e095b1f9899a0486a577eeea5ab8)
-  - Update `@typescript-eslint/eslint-plugin` from `5.30.0` to `5.31.0` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md#5320-2022-08-01)
+  - Update `@typescript-eslint/eslint-plugin` from `5.30.6` to `5.31.0` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md#5310-2022-07-25)
 
 ### stylelint-config-ez
 
