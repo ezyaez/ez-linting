@@ -14,7 +14,7 @@
 
 ### stylelint-config-ez
 
-- #### Publish [v2.0.8](https://github.com/ezyaez/ez-linting/commit/7359306427541ce0769a12ae0446a65a397e015b#diff-ab29a3c87cb571058038f938c4e151b5a5112e8efa95e621af3646c45b39ed7f)
+- #### Publish [v2.0.7](https://github.com/ezyaez/ez-linting/commit/7359306427541ce0769a12ae0446a65a397e015b#diff-ab29a3c87cb571058038f938c4e151b5a5112e8efa95e621af3646c45b39ed7f)
   - Update `stylelint-config-standard-scss` from `4.0.0` to `5.0.0` [(Review)](https://github.com/stylelint-scss/stylelint-config-standard-scss/blob/main/CHANGELOG.md#500)
 
 ## 2022-07-13
