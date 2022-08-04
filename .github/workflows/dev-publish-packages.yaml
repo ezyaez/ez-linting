@@ -32,18 +32,21 @@ jobs:
 
       - name: Publish Package eslint-config-ez beta
         if: steps.changes.outputs.eslint-config-ez == 'true'
+        continue-on-error: true
         run: npm run publish-eslint-ez:beta
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish Package eslint-config-yc beta
         if: steps.changes.outputs.eslint-config-yc == 'true'
+        continue-on-error: true
         run: npm run publish-eslint-yc:beta
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish Package stylelint-config-ez beta
         if: steps.changes.outputs.stylelint-config-ez == 'true'
+        continue-on-error: true
         run: npm run publish-stylelint-ez:beta
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
