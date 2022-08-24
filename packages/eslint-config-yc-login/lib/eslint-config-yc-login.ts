@@ -13,7 +13,6 @@ module.exports = {
   globals: {
     browser: true,
   },
-  ignorePatterns: ["/example", "/dist"],
   rules: {
     'no-unused-vars': 'error',
     'vue/no-unused-vars': 'error',
