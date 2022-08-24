@@ -7,7 +7,7 @@ Global ESLint configuration for Vue.js (YC-Login)projects.
 ### Install Package
 
 ```
-npm i -D @eslint-config-yc-login
+npm i -D @ezyaez/eslint-config-yc-login
 ```
 
 ### Library Usage
