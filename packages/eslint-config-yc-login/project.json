@@ -7,7 +7,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/packages/eslint-config-yc-login",
-        "main": "packages/eslint-config-yc-login/src/index.ts",
+        "main": "packages/eslint-config-yc-login/lib/eslint-config-yc-login.ts",
         "tsConfig": "packages/eslint-config-yc-login/tsconfig.lib.json",
         "assets": ["packages/eslint-config-yc-login/*.md"]
       }
