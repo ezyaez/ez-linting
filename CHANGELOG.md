@@ -1,5 +1,13 @@
 # Change Log
 
+## 2022-08-24
+
+### eslint-config-yc-login
+
+- #### Publish [v1.0.0](https://github.com/ezyaez/ez-linting/commit/f133325da38452a79d3f80830c20f46eccf507f6)
+  - Add `eslint` for linting
+  - Add `eslint-plugin-vue` for Vue linting
+
 ## 2022-08-02
 
 ### eslint-config-ez
@@ -99,7 +107,7 @@
   - Update `@nuxtjs/eslint-config-typescript` from `^7.0.2` to `8.0.0` [(Review)](https://github.com/nuxt/eslint-config/blob/master/packages/eslint-config-typescript/CHANGELOG.md)
   - Update `@typescript-eslint/eslint-plugin` from `^5.3.1` to `5.10.2` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/master/CHANGELOG.md)
 
-## 2021-11-10$ npm install @ezyaez/eslint-config-yc@1.0.12-test.2
+## 2021-11-10
 
 ### stylelint-config-ez
 
