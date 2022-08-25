@@ -1,21 +1,21 @@
 {
-  "sourceRoot": "packages/eslint-config-yc-login/src",
+  "sourceRoot": "packages/eslint-config-vue/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/eslint-config-yc-login",
-        "main": "packages/eslint-config-yc-login/lib/eslint-config-yc-login.ts",
-        "tsConfig": "packages/eslint-config-yc-login/tsconfig.lib.json",
-        "assets": ["packages/eslint-config-yc-login/*.md"]
+        "outputPath": "dist/packages/eslint-config-vue",
+        "main": "packages/eslint-config-vue/lib/eslint-config-vue.ts",
+        "tsConfig": "packages/eslint-config-vue/tsconfig.lib.json",
+        "assets": ["packages/eslint-config-vue/*.md"]
       }
     },
     "publish": {
       "executor": "@nrwl/workspace:run-commands",
       "options": {
-        "command": "node tools/scripts/publish.mjs eslint-config-yc-login {args.ver} {args.tag}"
+        "command": "node tools/scripts/publish.mjs eslint-config-vue {args.ver} {args.tag}"
       },
       "dependsOn": [
         {
@@ -28,14 +28,14 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/eslint-config-yc-login/**/*.ts"]
+        "lintFilePatterns": ["packages/eslint-config-vue/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/eslint-config-yc-login"],
+      "outputs": ["coverage/packages/eslint-config-vue"],
       "options": {
-        "jestConfig": "packages/eslint-config-yc-login/jest.config.ts",
+        "jestConfig": "packages/eslint-config-vue/jest.config.ts",
         "passWithNoTests": true
       }
     }

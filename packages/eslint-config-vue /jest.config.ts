@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'eslint-config-yc-login',
+  displayName: 'eslint-config-vue',
   preset: '../../jest.preset.ts',
   globals: {
     'ts-jest': {
@@ -10,5 +10,5 @@ module.exports = {
     '^.+\\.[tj]s$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/packages/eslint-config-yc-login',
+  coverageDirectory: '../../coverage/packages/eslint-config-vue',
 };

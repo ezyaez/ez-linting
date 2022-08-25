@@ -2,7 +2,7 @@
 
 ## 2022-08-24
 
-### eslint-config-yc-login
+### eslint-config-vue
 
 - #### Publish [v1.0.0](https://github.com/ezyaez/ez-linting/commit/f133325da38452a79d3f80830c20f46eccf507f6)
   - Add `eslint` for linting
