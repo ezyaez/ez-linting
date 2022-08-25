@@ -33,10 +33,12 @@
     "access": "public"
   },
   "dependencies": {
+    "@vue/eslint-config-standard": "^8.0.1",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.4.0"
   },
   "peerDependencies": {
+    "@vue/eslint-config-standard": "^8.0.1",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.4.0"
   }

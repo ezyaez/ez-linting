@@ -5,6 +5,7 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:vue/recommended',
+    '@vue/eslint-config-standard',
   ],
   plugins: ['vue',],
   parserOptions: {
@@ -68,6 +69,19 @@ module.exports = {
     "dot-notation": "error",
     "no-var": "error",
     "object-shorthand": "error",
+
+    // Enforce import order
+    'import/order': 'error',
+
+    // Imports should come first
+    'import/first': 'error',
+ 
+    // Other import rules
+    'import/no-mutable-exports': 'error',
+ 
+    // Allow unresolved imports
+    'import/no-unresolved': 'off',
+
     "vue/no-useless-v-bind": ["error", {
       "ignoreIncludesComment": false,
       "ignoreStringEscape": false,
