@@ -1,6 +1,6 @@
 # `eslint-config-vue`
 
-Global ESLint configuration for Vue.js (YC-Login)projects.
+Global ESLint configuration for Vue.js projects.
 
 ## Getting Started
 

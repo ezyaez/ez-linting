@@ -5,11 +5,11 @@
   "scripts": {
     "publish-eslint-ez": "nx publish eslint-config-ez --tag=latest --ver=1.0.8",
     "publish-eslint-yc": "nx publish eslint-config-yc --tag=latest --ver=1.0.15",
-    "publish-eslint-yc-login": "nx publish eslint-config-vue --tag=latest --ver=1.0.0",
+    "publish-eslint-vue": "nx publish eslint-config-vue --tag=latest --ver=1.0.0",
     "publish-stylelint-ez": "nx publish stylelint-config-ez --tag=latest --ver=2.0.7",
     "publish-eslint-ez:beta": "nx publish eslint-config-ez --tag=beta --ver=1.0.8-beta",
     "publish-eslint-yc:beta": "nx publish eslint-config-yc --tag=beta --ver=1.0.15-beta",
-    "publish-eslint-yc-login:beta": "nx publish eslint-config-vue --tag=beta --ver=1.0.0-beta",
+    "publish-eslint-vue:beta": "nx publish eslint-config-vue --tag=beta --ver=1.0.0-beta",
     "publish-stylelint-ez:beta": "nx publish stylelint-config-ez --tag=beta --ver=2.0.7-beta"
   },
   "private": true,

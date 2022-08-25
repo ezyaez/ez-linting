@@ -1,8 +1,8 @@
 {
   "name": "@ezyaez/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "type": "commonjs",
-  "description": "Eslint Config for yc-login",
+  "description": "Eslint Config for Vue",
   "keywords": [
     "eslint",
     "javascript",
