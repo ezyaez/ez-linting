@@ -1,6 +1,6 @@
 {
   "name": "@ezyaez/eslint-config-vue",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "commonjs",
   "description": "Eslint Config for Vue",
   "keywords": [
