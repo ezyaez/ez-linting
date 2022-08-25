@@ -1,0 +1,45 @@
+{
+  "name": "@ezyaez/eslint-config-vue",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "description": "Eslint Config for Vue",
+  "keywords": [
+    "eslint",
+    "javascript",
+    "vuejs"
+  ],
+  "author": "Piyush Goyani <piyush.goyani@ezeetechnosys.com>",
+  "homepage": "https://github.com/ezyaez/ez-linting#readme",
+  "license": "MIT",
+  "main": "lib/eslint-config-vue.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezyaez/ez-linting.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ezyaez/ez-linting/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.4.0"
+  },
+  "peerDependencies": {
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.4.0"
+  }
+}

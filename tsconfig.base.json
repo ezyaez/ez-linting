@@ -17,6 +17,9 @@
     "paths": {
       "@ezyaez/eslint-config-ez": ["packages/eslint-config-ez/src/index.ts"],
       "@ezyaez/eslint-config-yc": ["packages/eslint-config-yc/src/index.ts"],
+      "@ezyaez/eslint-config-vue": [
+        "packages/eslint-config-vue/src/index.ts"
+      ],
       "@ezyaez/stylelint-config-ez": [
         "packages/stylelint-config-ez/src/index.ts"
       ]
