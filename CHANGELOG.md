@@ -4,9 +4,10 @@
 
 ### eslint-config-vue
 
-- #### Publish [v1.0.0](https://github.com/ezyaez/ez-linting/commit/f133325da38452a79d3f80830c20f46eccf507f6)
+- #### Publish [v1.0.0](https://github.com/ezyaez/ez-linting/commit/ea287f5adf0c9f3b224aea3e6414e83cdb68f1fe)
   - Add `eslint` for linting
   - Add `eslint-plugin-vue` for Vue linting
+  - Add `@vue/eslint-config-standard` for Standard rules
 
 ## 2022-08-02
 

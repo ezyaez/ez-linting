@@ -12,7 +12,7 @@ npm i -D @ezyaez/eslint-config-vue
 
 ### Library Usage
 
-This library contains some of most common rules for eslint for VueJS in integration. It extends `eslint:recommended`,`plugin:vue/recommended` and use plugins as `vue`. It recommended to use this library as a base for your own configuration in projects.
+This library contains some of most common rules for eslint for VueJS in integration. It extends `eslint:recommended`,`plugin:vue/recommended`,`@vue/eslint-config-standard` and use plugins as `vue`. It recommended to use this library as a base for your own configuration in projects.
 
 ESLint can be configured in many ways e.g (.eslintrc.{js,yml,json} files.)
 
