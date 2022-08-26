@@ -27,6 +27,8 @@ jobs:
               - packages/eslint-config-ez/**
             eslint-config-yc:
               - packages/eslint-config-yc/**
+             eslint-config-vue:
+              - packages/eslint-config-vue/**
             stylelint-config-ez:
               - packages/stylelint-config-ez/**
 
@@ -44,6 +46,13 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+      - name: Publish Package eslint-config-vue
+        if: steps.changes.outputs.eslint-config-vue == 'true'
+        continue-on-error: true
+        run: npm run publish-eslint-vue
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+  
       - name: Publish Package stylelint-config-ez
         if: steps.changes.outputs.stylelint-config-ez == 'true'
         continue-on-error: true

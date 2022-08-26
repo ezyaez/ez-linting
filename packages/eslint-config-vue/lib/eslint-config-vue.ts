@@ -92,7 +92,6 @@ module.exports = {
         "x-invalid-end-tag": false,
       },
     ],
-    "vue/no-v-html": "off",
     "vue/max-attributes-per-line": [
       "error",
       {
