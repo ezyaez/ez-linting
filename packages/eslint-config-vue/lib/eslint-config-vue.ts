@@ -17,9 +17,6 @@ module.exports = {
   rules: {
     'no-unused-vars': 'error',
     'vue/no-unused-vars': 'error',
-    "vue/no-use-v-if-with-v-for": ["error", {
-      "allowUsingIterationVar": false
-    }],
     'no-undef': 'warn',
     'vue/no-undef-components': 'warn',
     'vue/no-undef-properties': 'warn',
@@ -95,7 +92,6 @@ module.exports = {
         "x-invalid-end-tag": false,
       },
     ],
-    "vue/no-v-html": "off",
     "vue/max-attributes-per-line": [
       "error",
       {
