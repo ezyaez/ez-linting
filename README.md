@@ -4,7 +4,7 @@
 
 - [ESLint](https://github.com/ezyaez/ez-linting/tree/master/packages/eslint-config-ez#readme)
 - [StyleLint](https://github.com/ezyaez/ez-linting/tree/master/packages/stylelint-config-ez#readme)
-- [Eslint-Vue](https://github.com/ezyaez/ez-linting/blob/vaishali/yc-login/lint/packages/eslint-config-vue/README.md)
+- [Eslint-Vue](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-vue/README.md)
 - [Eslint-typescript](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-yc/README.md)
 
 This project was generated using [Nx](https://nx.dev), **Smart, Fast and Extensible Build System.**

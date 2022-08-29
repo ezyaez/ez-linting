@@ -22,7 +22,7 @@ ESLint can be configured in many ways e.g (.eslintrc.{js,yml,json} files.)
 extends: ['@ezyaez/eslint-config-vue']
 ```
 
-### [Library Rules](https://github.com/ezyaez/ez-linting/blob/vaishali/yc-login/lint/packages/eslint-config-vue/lib/eslint-config-vue.ts)
+### [Library Rules](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-vue/lib/eslint-config-vue.ts)
 
 ### Building
 
