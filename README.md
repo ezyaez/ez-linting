@@ -4,6 +4,7 @@
 
 - [ESLint](https://github.com/ezyaez/ez-linting/tree/master/packages/eslint-config-ez#readme)
 - [StyleLint](https://github.com/ezyaez/ez-linting/tree/master/packages/stylelint-config-ez#readme)
+- [Eslint-Vue](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-vue/README.md)
 - [Eslint-typescript](https://github.com/ezyaez/ez-linting/blob/master/packages/eslint-config-yc/README.md)
 
 This project was generated using [Nx](https://nx.dev), **Smart, Fast and Extensible Build System.**
@@ -20,6 +21,7 @@ npm i -D @nrwl/js
 ```
 nx g @nrwl/js:lib eslint-config-ez --publishable --importPath="@ezyaez/eslint-config-ez"
 nx g @nrwl/js:lib eslint-config-yc --publishable --importPath="@ezyaez/eslint-config-yc"
+nx g @nrwl/js:lib eslint-config-vue --publishable --importPath="@ezyaez/eslint-config-vue"
 nx g @nrwl/js:lib stylelint-config-ez --publishable --importPath="@ezyaez/stylelint-config-ez"
 ```
 

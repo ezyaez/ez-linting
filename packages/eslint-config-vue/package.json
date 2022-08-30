@@ -1,19 +1,17 @@
 {
-  "name": "@ezyaez/eslint-config-ez",
-  "version": "1.0.8-beta.2",
+  "name": "@ezyaez/eslint-config-vue",
+  "version": "1.0.0",
   "type": "commonjs",
-  "description": "Global Eslint Config for EZ",
+  "description": "Eslint Config for Vue",
   "keywords": [
     "eslint",
     "javascript",
-    "typescript",
-    "nuxtjs",
     "vuejs"
   ],
   "author": "Piyush Goyani <piyush.goyani@ezeetechnosys.com>",
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
   "license": "MIT",
-  "main": "lib/eslint-config-ez.js",
+  "main": "lib/eslint-config-vue.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -35,12 +33,13 @@
     "access": "public"
   },
   "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "10.0.0",
-    "eslint": "8.21.0",
-    "eslint-plugin-import": "2.26.0"
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.4.0"
   },
   "peerDependencies": {
-    "eslint": "^8.21.0",
-    "eslint-plugin-import": "^2.26.0"
+    "@vue/eslint-config-standard": "^8.0.1",
+    "eslint": "^8.22.0",
+    "eslint-plugin-vue": "^9.4.0"
   }
 }
