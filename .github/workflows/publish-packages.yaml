@@ -27,7 +27,7 @@ jobs:
               - packages/eslint-config-ez/**
             eslint-config-yc:
               - packages/eslint-config-yc/**
-             eslint-config-vue:
+            eslint-config-vue:
               - packages/eslint-config-vue/**
             stylelint-config-ez:
               - packages/stylelint-config-ez/**
