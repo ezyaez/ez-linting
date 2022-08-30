@@ -6,7 +6,8 @@
   "keywords": [
     "eslint",
     "javascript",
-    "vuejs"
+    "vuejs",
+    "standard"
   ],
   "author": "Piyush Goyani <piyush.goyani@ezeetechnosys.com>",
   "homepage": "https://github.com/ezyaez/ez-linting#readme",
