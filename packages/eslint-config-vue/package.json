@@ -1,6 +1,6 @@
 {
   "name": "@ezyaez/eslint-config-vue",
-  "version": "1.0.0",
+  "version": "1.0.1-beta",
   "type": "commonjs",
   "description": "Eslint Config for Vue",
   "keywords": [
@@ -35,12 +35,12 @@
   },
   "dependencies": {
     "@vue/eslint-config-standard": "^8.0.1",
-    "eslint": "^8.22.0",
-    "eslint-plugin-vue": "^9.4.0"
+    "eslint": "^8.27.0",
+    "eslint-plugin-vue": "^9.7.0"
   },
   "peerDependencies": {
     "@vue/eslint-config-standard": "^8.0.1",
-    "eslint": "^8.22.0",
-    "eslint-plugin-vue": "^9.4.0"
+    "eslint": "^8.27.0",
+    "eslint-plugin-vue": "^9.7.0"
   }
 }

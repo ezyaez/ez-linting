@@ -1,6 +1,6 @@
 {
   "name": "@ezyaez/stylelint-config-ez",
-  "version": "2.0.7",
+  "version": "2.0.8-beta",
   "description": "Global Stylelint Config for EZ",
   "keywords": [
     "stylelint",
@@ -35,7 +35,7 @@
     "access": "public"
   },
   "dependencies": {
-    "stylelint": "14.9.1",
-    "stylelint-config-standard-scss": "5.0.0"
+    "stylelint": "14.14.1",
+    "stylelint-config-standard-scss": "6.1.0"
   }
 }
