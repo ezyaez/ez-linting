@@ -1,5 +1,37 @@
 # Change Log
 
+## 2022-11-15
+
+### publish-eslint-ez
+
+- #### Publish [v1.0.9](https://github.com/ezyaez/ez-linting/commit/d31961bf0a69f9e4ba0c1d8127fc8cfde55bb776#diff-73e436a93c98e05818365bb95d0c23bd73f9004082cb627f3a52e27417ba5fc3)
+  - Update `eslint` from `8.21.0` to `8.27.0` [(Review)](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+  - Update `@nuxtjs/eslint-config-typescript` from `10.0.0` to `11.0.0` [(Review)](https://github.com/nuxt/eslint-config/blob/main/packages/eslint-config-typescript/CHANGELOG.md#1100-2022-08-31)
+
+## 2022-11-15
+
+### publish-eslint-vue
+
+- #### Publish [v1.0.1](https://github.com/ezyaez/ez-linting/commit/b40dbcb50a7258a0b806b46c8fab0399330e8bcc#diff-678b2a043c50587c2a63ae72bd8bd35e49e74aec2719ae2d16d06059c133b7e0)
+  - Update `eslint` from `8.22.0` to `8.27.0` [(Review)](https://github.com/eslint/eslint/blob/main/CHANGELOG.md)
+  - Update `eslint-plugin-vue` from `9.4.0` to `9.7.0` [(Review)](https://github.com/vuejs/eslint-plugin-vue/releases/tag/v9.7.0)
+
+## 2022-11-15
+
+### publish-eslint-yc
+
+- #### Publish [v1.0.16](https://github.com/ezyaez/ez-linting/commit/71e1d9bc141aaee7dba44510f10979674dc74830#diff-5053aed3db0d308a5c63133277c41a8d4832e095b1f9899a0486a577eeea5ab8)
+  - Update `@nuxtjs/eslint-config-typescript` from `10.0.0` to `11.0.0` [(Review)](https://github.com/nuxt/eslint-config/blob/main/packages/eslint-config-typescript/CHANGELOG.md#1100-2022-08-31)
+  - Update `@typescript-eslint/eslint-plugin` from `5.31.6` to `5.42.1` [(Review)](https://github.com/typescript-eslint/typescript-eslint/blob/main/CHANGELOG.md#5421-2022-11-07)
+
+## 2022-11-15
+
+### publish-stylelint-ez
+
+- #### Publish [v2.0.8](https://github.com/ezyaez/ez-linting/commit/ad017147bbdfff10271281a5ca752395d87ac4cc#diff-ab29a3c87cb571058038f938c4e151b5a5112e8efa95e621af3646c45b39ed7f)
+  - Update `stylelint` from `14.9.1` to `14.14.1` [(Review)](https://github.com/stylelint/stylelint/blob/main/CHANGELOG.md#14141)
+  - Update `stylelint-config-standard-scss` from `5.0.0` to `6.1.0` [(Review)](https://github.com/stylelint-scss/stylelint-config-standard-scss/blob/main/CHANGELOG.md#610)
+
 ## 2022-08-24
 
 ### eslint-config-vue
