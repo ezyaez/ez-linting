@@ -1,6 +1,6 @@
 {
   "name": "@ezyaez/eslint-config-ez",
-  "version": "1.0.9-beta",
+  "version": "1.0.9-beta.1",
   "type": "commonjs",
   "description": "Global Eslint Config for EZ",
   "keywords": [
@@ -35,7 +35,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@nuxtjs/eslint-config-typescript": "11.0.0",
+    "@nuxtjs/eslint-config-typescript": "12.0.0",
     "eslint": "8.27.0",
     "eslint-plugin-import": "2.26.0"
   },
